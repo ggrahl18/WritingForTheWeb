@@ -1,0 +1,146 @@
+/* 
+File Name: color.css
+Date Submitted: 6/26/2021
+Author: Garrett Grahl
+Class: CIS 154
+Team Project: Writing for the Web
+*/
+
+/* Use below line to troubleshoot problem areas */
+/* border: 3px dotted red; */
+
+/* HEADER */
+header {
+     background-color: #003366;
+     color: #FFFFFF;
+     font-family: Georgia, 'Times New Roman', Times, serif;
+}
+header a { text-decoration: none; }
+header a:link { color: #00005D; }
+header a:visited { color: #FFF; }
+header a:hover { color: #000; }
+
+/* NAVIGATION */
+nav {
+     float: left;
+     width: 150px;
+     width: 15%;
+}
+nav ul { 
+     list-style-type: none; 
+     margin: 0;
+     padding: 0; 
+}
+nav a { 
+     text-decoration: none; 
+     text-decoration: none;
+     display: block;
+     padding: 20px;
+     background-color: #808080;
+     border-bottom: 1px solid #FFFFFF;
+     background-position: right 0;
+}
+nav a:link { color: #fff; }
+nav a:visited { color: #fff; }
+nav a:hover { 
+  background-color: #EAEAEA;
+  color: #869dc7;
+  background-position: right -100px;
+}
+
+/* BODY */
+body {
+     background-color: #F0F0F0; /* Try these other color options: 00BEAA, DCB300, FFDB3D, 4D89F6, A1C0FA */
+     font-family: Verdana, Geneva, Tahoma, sans-serif;
+}
+
+/* HEADINGS */
+h1 {
+     font-family: Arial, Helvetica, sans-serif;
+     text-shadow: 1px 1px 1px #000000;
+     padding: 2%;
+     margin: 0;
+}
+h2 {
+     font-size: 1.2em;
+     color: #152B54;
+}
+
+/* MAIN */
+main {
+     background-color: #FFFFFF;
+     margin-left: 15%;
+     padding: 2%;
+     /* padding-bottom: 2%; */
+     overflow: auto;
+     display: block;
+     font-size: large;
+}
+
+/* FOOTER */
+footer {
+     font-size: .75em;
+     font-style: italic;
+     text-align: center;
+     background-color: #AEC3EC; 
+     clear: both;
+     padding: .5%;
+}
+
+/* UNORDERED LISTS */
+.noBullet { 
+     list-style-type:none; 
+}
+.spacing {
+     margin: 20px 0;
+}
+
+/* DESCRIPTION LIST */
+dl {
+     padding-top: 10px;
+     padding-left: 40px;
+}
+dt {
+     margin: 10px 0;
+}
+
+/* IMAGE */
+.floatright {
+     margin: 10px;
+     float: right;
+}
+
+/* Button on index */
+.myButton {
+	box-shadow:inset 0px 1px 2px 0px #cf866c;
+	background:linear-gradient(to bottom, #d0451b 5%, #bc3315 100%);
+	background-color:#d0451b;
+	border:2px solid #942911;
+	display:inline-block;
+	cursor:pointer;
+	color:#ffffff;
+	font-family:Arial;
+	font-size:18px;
+	padding:12px 22px;
+	text-decoration:none;
+	text-shadow:0px 1px 0px #854629;
+}
+.myButton:hover {
+	background:linear-gradient(to bottom, #bc3315 5%, #d0451b 100%);
+	background-color:#bc3315;
+}
+ .myButton:active {
+	position:relative;
+	top:1px;
+}
+
+/* CONTACT EMAIL */
+.email {
+     margin: 3%;
+}
+#wrapper { 
+     background-color: #EAEAEA;
+     width: 80%;
+     margin-left: auto;
+     margin-right: auto; 
+}
